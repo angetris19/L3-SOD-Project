@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+width: 86%;
+display: flex;
+margin: auto;
+padding: 15px 0;
+align-items: center;
+justify-content: space-between;
+}
+
+.navbar .logo{
+  
+width: 160px;
+cursor: pointer;
+margin-top: -3%;
+margin-left: -2%;
+border-radius: 60%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: 4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(238,164,59);
+
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+
+}
+
+.info span{
+    color: orangered;
+}
+
+.info a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: blueviolet;
+}
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+   
+}
+
+.image img{
+    position: absolute;
+    height: 100%;
+    left: 80%;
+    transform: translate(-85%);
+bottom: 0%;
+transition: left 8s ease;
+border-radius: 90%;
+}
+
+.image:hover .girl{
+left: 55%;
+
+}
+
+.icons a{
+    text-decoration: none;
+color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+
+} 
+footer {
+
+	color: black;
+	padding: 10px;
+	text-align: center;
+}
+    </style>
+  
+</head>
+<body>
+    <div class="main">
+<div class="navbar">
+    <img src="roro.jpg" class="logo">
+
+    <ul>
+        <li><a href="Roxy's Portfolio.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="SKIL.html">SKILLS</a></li>
+        <li><a href="skills.html">CONTACT</a></li>
+    </ul>
+</div>
+<div class="info">
+    <h3>Hi,I'm <span> Rosandra</span>.</h3>
+    <h1><span>W</span>EB <span>D</span>EVELOPER</span></h1>
+    <h3>Web designer and developer from Kigali,Rwanda.
+        <br>I create websites for Business,Education,<br>Commerce,Entertainment and social network</h3>
+    <a href="#">Hire Me</a>
+</div>
+<div class="image">
+    <img src="roxy.jpg" class="girl">
+</div>
+
+<div class="icons"></div>
+<a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+<a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+<a href="#"><ion-icon name="logo-Twitter"></ion-icon></a></br></br></br><br></br>
+<footer>
+    <p>&copy; 2023 IAR</p>
+</footer>
+    </div>
+   
+</div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    
+</body>
+</html>

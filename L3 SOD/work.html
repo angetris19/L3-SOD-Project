@@ -1,0 +1,80 @@
+<html lang="en">
+    <head>
+    <title>task from</title>
+    <style>
+.container{
+    background-color: lightblue;
+    width: 60%;
+    margin: 0 auto;
+padding: 20px;
+}
+.formcontainer{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+padding: 20px;
+}
+form{
+    display: flex;
+    flex-direction:column;
+   gap: 10px;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}  
+.names *{
+    flex: 1;
+background-color: #ccc;
+}
+.email-and-phone{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.email-and-phone *{
+    flex: 1;
+    background-color: rgb(197, 197, 251);
+    
+}
+#address{
+background-color: rgb(144, 144, 220);
+height: 50px;
+}
+button{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(8--, 35, 238);
+    border-radius: 6px;
+    align-self: center;
+}
+input{
+    border-radius: 5px;
+}
+h5{
+    font-size: 10px;
+    color: green;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+<div class="formcontainer">
+    <h4>Get in Touch</h4>
+    <form action="">
+<div class="names">
+    <input type="text" placeholder="first name">
+    <input type="text" placeholder="last name">
+</div>
+<div class="email-and-phone">
+    <input type="text" placeholder="email">
+    <input type="text" placeholder="phone">
+</div>
+    <input type="text" placeholder="type your message"id="adress">
+    <button type="submit">submit</button>
+    </form>
+    <h5>thanks for submitting</h5>
+    </div>
+</body>
+</html>
